@@ -39,7 +39,7 @@ IoT flutter lab
 * **Лінтер:**
     * Всі зауваження лінтера **повинні** бути виправлені.
 * **Запис в доці:**
-    * Не забуть прикріпити посилання на пул реквест в [аркуші лаб-2](https://docs.google.com/spreadsheets/d/1nLum3uuoCSpKLCqLspGZ3342FEsU7ccmgYB9I54pKOM/edit?usp=sharing)
+    * Не забуть прикріпити посилання на пул реквест в [аркуші лаб-3](https://docs.google.com/spreadsheets/d/1nLum3uuoCSpKLCqLspGZ3342FEsU7ccmgYB9I54pKOM/edit#gid=518812626)
 
 
 **Поради:**
