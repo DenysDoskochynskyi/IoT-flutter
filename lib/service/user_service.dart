@@ -1,6 +1,7 @@
 import 'package:labs/entity/user.dart';
 import 'package:labs/repository/current_user_repository.dart';
 import 'package:labs/repository/user_repository.dart';
+import 'package:uuid/uuid.dart';
 
 class UserService {
   final UserRepository _userRepository;
@@ -20,7 +21,7 @@ class UserService {
   }
 
   Future<bool> register(String email, String password) async {
-    final newUser = User(email, password);
+    final newUser = User(const Uuid().v4(), email, password);
 
     if (await getUser(email) != null) {
       return false;

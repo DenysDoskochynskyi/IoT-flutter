@@ -6,8 +6,8 @@ class SubjectService {
 
   SubjectService(this._subjectRepository);
 
-  Future<List<Subject>> getSubjects() async {
-    return await _subjectRepository.getSubjects();
+  Future<List<Subject>> getSubjects(String userId) async {
+    return await _subjectRepository.getSubjects(userId);
   }
 
   Future<void> addSubject(Subject subject) async {
